@@ -705,7 +705,7 @@ Go straight into the deliverable. No preamble, no planning notes, no "before wri
   )
 
   if (!isAuthed) {
-    return <WelcomeScreen onAuth={name => { setCurrentUser(name); setBrief(b => ({ ...b, createdBy: name })); setIsAuthed(true) }} />
+    return <WelcomeScreen onAuth={name => { setBrief(b => ({ ...b, createdBy: name })); setIsAuthed(true) }} />
   }
 
   return (

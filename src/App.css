@@ -1,0 +1,6 @@
+/* Mechanic HQ — styles handled inline in App.tsx */
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+}

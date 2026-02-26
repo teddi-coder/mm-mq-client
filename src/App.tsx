@@ -540,7 +540,6 @@ export default function App() {
   const [isAuthed, setIsAuthed] = useState(() =>
     !ACCESS_PASSWORD ? true : localStorage.getItem('mm_authed') === 'true'
   )
-  const [currentUser, setCurrentUser] = useState(() => localStorage.getItem('mm_user_name') || '')
 
   const [activeTab, setActiveTab] = useState(0)
 
